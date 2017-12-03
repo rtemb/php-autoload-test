@@ -1,0 +1,21 @@
+{
+    "name": "artyomb/php-autoload-test",
+    "description": "Tests of difirent ways of including php files.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artyom Barhanov",
+            "email": "darakon92@gmail.com"
+        }
+    ],
+	"require": {},
+	"autoload": {
+        "classmap": [
+            ""
+		],
+		"psr-0": {
+			"rtemb": "src/"
+		}
+    }
+}
